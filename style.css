@@ -1,0 +1,89 @@
+
+
+
+body {
+    background: #6499E9;
+    font-size: 12px;
+}
+
+header {
+    height: 150px;
+    text-align: center;
+
+}
+
+#headerr {
+    font-size: 70px;
+    color: aquamarine;
+}
+
+#cryptoSearchBar {
+    width: 500px;
+}
+
+
+.flexboxContainer {
+    display: grid;
+    height: 100vh;
+    padding: 3%;
+    grid-template-columns: 0.3fr 1fr 1fr 0.7fr;
+    grid-template-rows:1.2fr 1fr 1fr;
+    grid-template-areas: 
+    "cryptoTickerLeft embeddedGraph graphAnalytics featuresRight"
+    "cryptoTickerLeft descriptionBox descriptionBox featuresRight" 
+    "cryptoTickerLeft cryptoResources cryptoResources copyrightStatementResources";
+    grid-gap: 0.8rem;
+    
+    
+
+
+}
+
+#cryptoTickerLeft {
+    background: #9EDDFF;
+    grid-area: cryptoTickerLeft;
+    font-size: 10px;
+    overflow: auto;
+    
+    
+}
+
+#embeddedGraph {
+    background: rgb(125, 125, 148);
+    grid-area: embeddedGraph;
+    max-height: 150px;
+    
+}
+
+#graphAnalytics {
+    background: #9EDDFF;
+    grid-area: graphAnalytics;
+}
+
+#descriptionBox {
+    background: #9EDDFF;
+    grid-area: descriptionBox;
+}
+
+#cryptoResources {
+    background: #9EDDFF;
+    grid-area: cryptoResources;
+}
+
+#featuresRight {
+    background: #9EDDFF;
+    grid-area: featuresRight;
+}
+
+#copyrightStatementResources {
+    background: #9EDDFF;
+    grid-area: copyrightStatementResources;
+}
+
+
+.scrolling-div {
+    max-height: auto;
+    overflow-y: scroll; /* Enable vertical scrolling */
+    padding: 10px; /* Add some padding for spacing */
+  }
+  

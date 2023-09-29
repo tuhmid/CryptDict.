@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptDict</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="bg"></div>
+    <header>
+        <h1 id="headerr">CryptDict</h1>
+        <input id="cryptoSearchBar" type="text" placeholder="Search for a cryptocurrency by name or ticker">
+        <button id="submitButton">Submit</button>
+    </header>
+
+
+    <div class="flexboxContainer">
+        <!-- the 'bulk' of it, all informational divs and graph -->
+        
+
+
+
+        <div id="cryptoTickerLeft">
+            <h2 id="cryptoTickerLeftText" class="scrolling-div">cryptoTickerLeft</h2>
+        </div>
+
+
+
+
+        <div id="embeddedGraph">
+            <!-- <h1>embeddedGraph</h1> -->
+            <!-- <div style="height:560px; background-color: #1D2330; overflow:hidden; box-sizing: border-box; border: 1px solid #282E3B; border-radius: 4px; text-align: right; line-height:14px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #262B38;padding:1px;padding: 0px; margin: 0px; width: 100%;"><div style="height:540px; padding:0px; margin:0px; width: 100%;"><iframe src="https://widget.coinlib.io/widget?type=chart&theme=dark&coin_id=859&pref_coin_id=1505" width="100%" height="536px" scrolling="auto" marginwidth="0" marginheight="0" frameborder="0" border="0" style="border:0;margin:0;padding:0;line-height:14px;"></iframe></div><div style="color: #626B7F; line-height: 14px; font-weight: 400; font-size: 11px; box-sizing: border-box; padding: 2px 6px; width: 100%; font-family: Verdana, Tahoma, Arial, sans-serif;"><a href="https://coinlib.io" target="_blank" style="font-weight: 500; color: #626B7F; text-decoration:none; font-size:11px">Cryptocurrency Prices</a>&nbsp;by Coinlib</div></div> -->
+            <div class="cryptohopper-web-widget" data-id="8" data-theme="midnight" data-coins="bitcoin" data-realtime="on"></div>
+
+              
+        </div>
+
+
+
+
+        <div id="graphAnalytics">
+            <h1 id="analyticsText">graphAnalytics</h1>
+        </div>
+
+
+
+
+        <div id="descriptionBox">
+            <h1 id="description1">descriptionBox</h1>
+        </div>
+
+
+
+
+        
+        <div id="cryptoResources">
+            <h1>cryptoResources</h1>
+            <div id="twitterEmbed">
+                <a href="https://cryptopanic.com/" target="_blank" data-news_feed="recent" data-bg_color="#FFFFFF" data-text_color="#333333" data-link_color="#0091C2" data-header_bg_color="#30343B" data-header_text_color="#FFFFFF" data-currencies="BTC" data-font_family="mono" class="CryptoPanicWidget">Latest News</a>
+                <script src="https://static.cryptopanic.com/static/js/widgets.min.js"></script>
+            </div>
+            
+        </div>
+
+
+
+
+
+        <div id="featuresRight">
+            <h1>featuresRight</h1>
+            <h3>Crypto to BTC Conversion:</h3>
+            <input id="c2bcrypto" placeholder="Enter amount in crypto">        <input id="c2bbtc" placeholder="Enter in BTC">
+            <h4 id="convdisplay1">Display conversion here.</h4>
+            <button>Convert</button>
+
+
+
+            <h3>Crypto to Local/Fiat Conversion:</h3>
+            <input id="c2lcrypto" placeholder="Enter amount in crypto">        <input id="c2lusd" placeholder="Enter in USD">
+            <h4 id="convdisplay2">Display conversion here.</h4>
+            <button>Convert</button>
+
+        </div>
+
+
+
+
+
+
+        <div id="copyrightStatementResources">
+            <h4>copyrightStatementResources</h4>
+            <p id="copyrightStatement">© 2023 Tahmid Sheikh. All rights reserved. Created using coinmarketcap.com API.</p>
+        </div>
+
+
+
+
+
+
+
+    </div>
+
+
+    <script src="https://www.cryptohopper.com/widgets/js/script"></script>
+</body>
+<footer>Footer</footer>
+</html>

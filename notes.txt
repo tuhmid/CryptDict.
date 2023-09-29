@@ -1,0 +1,3 @@
+arrangement:
+There are 7 flexboxes.
+in the first column, there are four boxes(cryptoTickerLeft, embeddedGraph, graphAnalytics, featuresRight). The first box(cryptoTickerLeft) width will be half the size of the other three and will extend to the bottom of the page. The other three(embeddedGraph, graphAnalytics, featuresRight) should be equally as wide. The two in the middle(embeddedGraph, graphAnalytics) should take up a third of the div vertically. Under embeddedGraph and graphAnalytics, there should be a fifth box(descriptionBox). The width should extend from the left of embeddedGraph to the right of graphAnalytics. Box 5(descriptionBox) should be the middle third of the div in terms of height. Box 4(featuresRight) should have a height of 2/3 of the div from the top.
